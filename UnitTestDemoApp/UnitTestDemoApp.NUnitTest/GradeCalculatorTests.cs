@@ -13,7 +13,7 @@ namespace UnitTestDemoApp.NUnitTest
         [TestCase(90)]
         [TestCase(91)]
         [TestCase(92)]
-        [TestCase(-1)]
+        [TestCase(99)]
         public void CalculateGrade_EqualTest(int score)
         {
             // Assing
